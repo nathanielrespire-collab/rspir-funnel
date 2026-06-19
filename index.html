@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RSPIR — automatise surtout pas ta business</title>
+  <meta name="description" content="RSPIR construit des automations et des systèmes IA pour les entrepreneurs qui savent qu'ils devraient le faire, mais qui ne veulent pas tout builder eux-mêmes." />
+  <meta property="og:title" content="RSPIR — automatise surtout pas ta business" />
+  <meta property="og:description" content="Arrête de tout faire toi-même. Comprends assez pour déléguer. Respire." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#11100d" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="RSPIR accueil">rspir</a>
+    <div class="status-pill"><span></span> humain d'abord · systèmes ensuite</div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">bien voyons donc ta****!!!! voir</p>
+        <h1>Automatise surtout pas ta business.</h1>
+        <p class="subhead">Reste en 2020. Continue de tout faire toi-même. Fais semblant que c'est normal de perdre ton souffle dans des tâches bébé.</p>
+
+        <div class="rage-strip">Maintenant là. Que j'ai ton attention.</div>
+
+        <p class="plain">
+          Si tu pouvais enlever UNE affaire plate de ta journée, ça serait quoi?
+          Factures. Confirmations. Relances. Résumés. Classement. Réponses.
+          Les petites affaires caves qui mangent ton cerveau.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-scroll="diagnostic">Écris t'es cave</button>
+          <button class="btn btn-ghost" data-scroll="funnel">Je veux juste comprendre le piège</button>
+        </div>
+      </div>
+
+      <aside class="poster-card" aria-label="Visuel rage bait RSPIR">
+        <img src="assets/bananes-rspir.jpg" alt="Post rage bait RSPIR avec bananes" />
+        <div class="poster-caption">pas une pub propre. un wake-up slap.</div>
+      </aside>
+    </section>
+
+    <section id="funnel" class="section-shell split-section">
+      <div>
+        <p class="eyebrow">le piège</p>
+        <h2>Le monde pense que parce que l'information existe, c'est eux autres qui doivent tout builder.</h2>
+      </div>
+
+      <div class="copy-stack">
+        <p>
+          Il y a des roadmaps partout. Des outils partout. Des agents partout.
+          Des vidéos partout. Pis là le founder finit par faire du viraillage infini
+          pendant que la vraie business attend.
+        </p>
+        <p>
+          RSPIR n'est pas là pour te faire tripper sur l'IA comme un magicien.
+          C'est là pour faire respirer ton opération.
+        </p>
+        <p class="punch">Tu restes humain. Le système fait les affaires plates.</p>
+      </div>
+    </section>
+
+    <section class="section-shell cards-section">
+      <p class="eyebrow">trois portes</p>
+      <h2>Pas besoin d'aimer l'IA. Faut juste arrêter de faire comme si ça n'existait pas.</h2>
+
+      <div class="cards">
+        <article class="card" data-select="Bébé">
+          <span class="card-tag">bébé</span>
+          <h3>Automations plates mais payantes</h3>
+          <p>Compta, factures, confirmations, courriels, rappels, formulaires, suivis. La base. Les affaires que t'aurais dû arrêter de faire à la main hier.</p>
+        </article>
+
+        <article class="card" data-select="Système">
+          <span class="card-tag">système</span>
+          <h3>Ton opération arrête de tousser</h3>
+          <p>CRM, pipeline, onboarding, relances, fichiers, notifications, résumé d'appels, gestion des leads. Moins de chaos. Plus de souffle.</p>
+        </article>
+
+        <article class="card" data-select="Custom">
+          <span class="card-tag">custom</span>
+          <h3>Là on ouvre le moteur</h3>
+          <p>Implémentation personnalisée. Outils connectés. IA utile. Process bâtis autour de ta vraie business. Plus c'est gros, plus c'est long et cher. Normal.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="diagnostic" class="section-shell diagnostic">
+      <div class="diagnostic-copy">
+        <p class="eyebrow">mini diagnostic</p>
+        <h2>Écris ce que tu fais encore à la main comme un malade.</h2>
+        <p>Pas besoin de texte LinkedIn. Pas besoin d'avoir l'air intelligent. Réponds vite. Le funnel va trier le bordel.</p>
+      </div>
+
+      <form name="rspir-lead" method="POST" action="/merci.html" data-netlify="true" netlify-honeypot="bot-field" class="lead-form" id="leadForm">
+        <input type="hidden" name="form-name" value="rspir-lead" />
+        <p class="hidden"><label>Ne remplis pas ça: <input name="bot-field" /></label></p>
+        <input type="hidden" name="niveau" id="niveau" value="Non choisi" />
+        <input type="hidden" name="rage_score" id="rageScore" value="0" />
+
+        <label>
+          Ton nom
+          <input name="nom" autocomplete="name" required placeholder="Ton nom" />
+        </label>
+
+        <label>
+          Ton courriel
+          <input name="email" type="email" autocomplete="email" required placeholder="ton@email.com" />
+        </label>
+
+        <label>
+          C'est quoi ton business / service?
+          <input name="business" required placeholder="Ex: coach, agence, gym, construction, clinique..." />
+        </label>
+
+        <label>
+          Qu'est-ce que tu fais encore à la main?
+          <textarea name="tache_manuelle" required placeholder="Ex: je copie-colle mes leads, je confirme mes rendez-vous, je fais mes factures à la mitaine..."></textarea>
+        </label>
+
+        <div class="choice-group" aria-label="Choix rapides">
+          <button type="button" data-choice="Je perds du temps dans mes suivis">suivis</button>
+          <button type="button" data-choice="Mes factures / confirmations sont caves">factures</button>
+          <button type="button" data-choice="Mes leads tombent entre deux chaises">leads</button>
+          <button type="button" data-choice="Je ne sais même pas par où commencer">je suis perdu</button>
+        </div>
+
+        <label>
+          Niveau de douleur
+          <select name="douleur" required>
+            <option value="">Choisis</option>
+            <option>Petit irritant cave</option>
+            <option>Je perds clairement du cash</option>
+            <option>Je suis en train de me faire dépasser</option>
+            <option>Ça presse en tabarnak</option>
+          </select>
+        </label>
+
+        <button class="btn btn-submit" type="submit">Envoyer le bordel</button>
+        <p class="form-note">Déployé sur Netlify, ce formulaire tombe directement dans les leads Netlify. Pas besoin de backend.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>rspir</strong> — automatisation, systèmes, intégration. Pas de magie. Du souffle.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
